@@ -4,7 +4,7 @@
 
 Diseño e integro plataformas web escalables: **salud digital (RIS/PACS)**, educación y productos con APIs REST, despliegues en nube/laboratorio y automatización. Uso IA de forma avanzada (Claude) para acelerar desarrollo, depuración y documentación.
 
-🌐 [raysus.github.io](https://raysus.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/raul-g92/) · ✉️ [ra.guti.el@gmail.com](mailto:ra.guti.el@gmail.com)
+🌐 [Portafolio web](https://raysus.github.io/portfolio-js/) · 💼 [LinkedIn](https://www.linkedin.com/in/raul-g92/) · ✉️ [ra.guti.el@gmail.com](mailto:ra.guti.el@gmail.com)
 
 ---
 
