@@ -11,7 +11,7 @@ Diseño e integro plataformas web escalables: **salud digital (RIS/PACS)**, educ
 ## Ahora
 
 - Consultor Full Stack en **HealthTICloud**: RIS multi-sede, Orthanc/DICOM, OHIF, Keycloak/SSO y Docker en producción ([ris.healthticloud.cl](https://ris.healthticloud.cl))
-- Productos propios: **Dojapp** (gestión de dojos web + Android) y **Bloo EMS** (plataforma educacional)
+- Producto propio: **Dojapp** (gestión de dojos web + Android)
 
 ## Proyectos destacados
 
