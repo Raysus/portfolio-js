@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Raúl Gutiérrez — Ingeniero Informático Full Stack. Salud digital, plataformas web y APIs." />
+  <title>Raúl Gutiérrez — Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Raúl Gutiérrez</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#stack">Stack</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="brand">Raúl Gutiérrez</p>
+        <h1>Ingeniero Informático Full Stack</h1>
+        <p class="lede">
+          Diseño e integro plataformas web escalables: salud digital (RIS/PACS),
+          educación y productos con APIs, nube y automatización.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-ghost" href="mailto:ra.guti.el@gmail.com">Escribirme</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="mesh" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="80" y1="40" x2="560" y2="600" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#1e3a5f" />
+              <stop offset="0.55" stop-color="#2f6f8f" />
+              <stop offset="1" stop-color="#d4a017" />
+            </linearGradient>
+            <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+              <stop stop-color="#7eb8d4" stop-opacity="0.35" />
+              <stop offset="1" stop-color="#7eb8d4" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <rect width="640" height="640" fill="url(#glow)" />
+          <g class="lines" stroke="url(#g1)" stroke-width="1.4" opacity="0.75">
+            <path d="M80 420 L220 280 L360 340 L520 160" />
+            <path d="M140 520 L280 400 L440 460 L560 300" />
+            <path d="M60 240 L200 180 L340 220 L480 100 L580 180" />
+            <path d="M220 280 L280 400" />
+            <path d="M360 340 L440 460" />
+            <path d="M340 220 L360 340" />
+          </g>
+          <g class="nodes" fill="#f7fafc">
+            <circle class="n n1" cx="80" cy="420" r="7" />
+            <circle class="n n2" cx="220" cy="280" r="10" />
+            <circle class="n n3" cx="360" cy="340" r="8" />
+            <circle class="n n4" cx="520" cy="160" r="11" />
+            <circle class="n n5" cx="140" cy="520" r="6" />
+            <circle class="n n6" cx="280" cy="400" r="8" />
+            <circle class="n n7" cx="440" cy="460" r="7" />
+            <circle class="n n8" cx="560" cy="300" r="9" />
+            <circle class="n n9" cx="200" cy="180" r="7" />
+            <circle class="n n10" cx="340" cy="220" r="8" />
+            <circle class="n n11" cx="480" cy="100" r="6" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section projects">
+      <div class="section-head">
+        <h2>Proyectos</h2>
+        <p>Trabajo público y casos recientes que muestran el tipo de sistemas que construyo.</p>
+      </div>
+
+      <article class="project featured">
+        <div class="project-meta">
+          <span class="tag">Salud digital</span>
+          <span class="tag">Producción</span>
+        </div>
+        <h3>RIS / PACS — HealthTICloud</h3>
+        <p>
+          Sistema RIS multi-sede: agenda, worklist, informes, admin y pagos.
+          Integración Orthanc/DICOM, visor OHIF, SSO con Keycloak y despliegues
+          Docker en laboratorio y producción.
+        </p>
+        <ul class="stack-list">
+          <li>Laravel</li>
+          <li>PostgreSQL</li>
+          <li>Redis</li>
+          <li>Docker</li>
+          <li>Orthanc</li>
+          <li>OHIF</li>
+          <li>Keycloak</li>
+        </ul>
+        <a class="text-link" href="https://ris.healthticloud.cl" target="_blank" rel="noopener">Ver entorno de producción</a>
+      </article>
+
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">NestJS</span>
+            <span class="tag">React</span>
+            <span class="tag">Mobile</span>
+          </div>
+          <h3>Dojapp</h3>
+          <p>
+            Plataforma para dojos de artes marciales: asistencia, alumnos,
+            contenidos y paneles sensei/alumno. Web + Android con Capacitor.
+          </p>
+          <ul class="stack-list">
+            <li>NestJS</li>
+            <li>Prisma</li>
+            <li>React</li>
+            <li>Capacitor</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Raysus/dojapp" target="_blank" rel="noopener">Código en GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">.NET</span>
+            <span class="tag">React</span>
+          </div>
+          <h3>Facturas Tech</h3>
+          <p>
+            Gestión de facturas con pagos, notas de crédito, reportes de vencidas
+            y autenticación JWT. Arquitectura en capas con DTOs.
+          </p>
+          <ul class="stack-list">
+            <li>ASP.NET Core</li>
+            <li>EF Core</li>
+            <li>React</li>
+            <li>TypeScript</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Raysus/facturas-tech" target="_blank" rel="noopener">Código en GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">Vue</span>
+            <span class="tag">Realtime</span>
+          </div>
+          <h3>Realtime Collab Board</h3>
+          <p>
+            Tablero colaborativo de sticky notes con presencia en edición,
+            sincronización Socket.IO y resolución de conflictos last-write-wins.
+          </p>
+          <ul class="stack-list">
+            <li>Vue 3</li>
+            <li>Pinia</li>
+            <li>Socket.IO</li>
+            <li>Node.js</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Raysus/realtime-collab-board" target="_blank" rel="noopener">Código en GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">Go</span>
+            <span class="tag">React</span>
+          </div>
+          <h3>Inventario</h3>
+          <p>
+            API de bodegas, insumos y stock en Go, con frontend React para
+            operar movimientos e inventario.
+          </p>
+          <ul class="stack-list">
+            <li>Go</li>
+            <li>JWT</li>
+            <li>React</li>
+            <li>Vite</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Raysus/inventario" target="_blank" rel="noopener">Código en GitHub</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">Educación</span>
+            <span class="tag">NestJS</span>
+          </div>
+          <h3>Bloo EMS</h3>
+          <p>
+            EMS multiplataforma para colegios K-12: API NestJS, Prisma,
+            PostgreSQL/Redis y app web React. Proyecto en desarrollo.
+          </p>
+          <ul class="stack-list">
+            <li>NestJS</li>
+            <li>Prisma</li>
+            <li>React</li>
+            <li>Docker</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="tag">Unity</span>
+            <span class="tag">Título</span>
+          </div>
+          <h3>Proyecto AR</h3>
+          <p>
+            Trabajo de título: aplicación móvil con realidad aumentada para
+            apoyo docente, junto a exploración en fotogrametría y 3D.
+          </p>
+          <ul class="stack-list">
+            <li>Unity</li>
+            <li>C#</li>
+            <li>AR</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Raysus/ProyectoAR" target="_blank" rel="noopener">Código en GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section experience">
+      <div class="section-head">
+        <h2>Experiencia</h2>
+        <p>Más de seis años construyendo y operando sistemas en producción.</p>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <div class="when">Mar 2026 – Presente</div>
+          <div class="what">
+            <h3>Consultor Full Stack — Salud Digital</h3>
+            <p class="org">HealthTICloud · Freelance</p>
+            <p>
+              Desarrollo del RIS multi-sede, integración DICOM/Orthanc/OHIF,
+              infraestructura Docker, VPN/Tailscale y documentación operativa.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Ago 2019 – Dic 2025</div>
+          <div class="what">
+            <h3>Desarrollador Full Stack</h3>
+            <p class="org">Instituto de Informática Educativa, Temuco</p>
+            <p>
+              Liderazgo en proyectos Moodle y plataformas nacionales para el
+              Ministerio de Educación (ENDFID, ECEP, ENDDEIE) con Laravel, React,
+              MySQL/PostgreSQL y paneles en tiempo real.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2017 – 2019</div>
+          <div class="what">
+            <h3>Prácticas laboral y profesional</h3>
+            <p class="org">Instituto de Informática Educativa, Temuco</p>
+            <p>
+              App móvil con realidad aumentada, reconocimiento facial con Python
+              y modelos 3D con fotogrametría en Unity.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="stack" class="section stack">
+      <div class="section-head">
+        <h2>Stack</h2>
+        <p>Herramientas con las que trabajo de forma habitual.</p>
+      </div>
+      <dl class="skill-grid">
+        <div>
+          <dt>Salud digital</dt>
+          <dd>DICOM, Orthanc, RIS/PACS, OHIF, Keycloak/SSO</dd>
+        </div>
+        <div>
+          <dt>Backend</dt>
+          <dd>Laravel, NestJS, Node.js, ASP.NET, Go, Python, APIs REST</dd>
+        </div>
+        <div>
+          <dt>Frontend</dt>
+          <dd>React, Vue, TypeScript, Capacitor, Bootstrap</dd>
+        </div>
+        <div>
+          <dt>Datos</dt>
+          <dd>PostgreSQL, MySQL, Redis, Prisma, EF Core</dd>
+        </div>
+        <div>
+          <dt>DevOps</dt>
+          <dd>Docker, Git, VPN/Tailscale, CI básico, despliegues en nube</dd>
+        </div>
+        <div>
+          <dt>Formación</dt>
+          <dd>Ingeniería en Informática — Universidad de La Frontera</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="section-head">
+        <h2>Contacto</h2>
+        <p>Temuco, Chile · abierto a proyectos y roles full stack.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:ra.guti.el@gmail.com">ra.guti.el@gmail.com</a>
+        <a href="https://github.com/Raysus" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/raul-g92/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="tel:+56966952729">+56 9 6695 2729</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Raúl Antonio Gutiérrez Elgueta</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
