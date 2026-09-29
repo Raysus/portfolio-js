@@ -12,4 +12,4 @@ python3 -m http.server 8080
 
 ## Contenido
 
-Perfil profesional, proyectos destacados (RIS/PACS, Dojapp, Facturas Tech, etc.), experiencia y contacto.
+Perfil profesional, proyectos destacados (RIS/PACS, Dojirapp, Isshinryu, OIKKA, etc.), experiencia y contacto.
