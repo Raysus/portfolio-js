@@ -1,6 +1,6 @@
 # Portafolio — Raúl Gutiérrez
 
-Sitio estático publicado en [GitHub Pages](https://raysus.github.io).
+Sitio estático publicado en [GitHub Pages](https://raysus.github.io/portfolio-js/).
 
 ## Local
 
@@ -12,4 +12,4 @@ python3 -m http.server 8080
 
 ## Contenido
 
-Perfil profesional, proyectos destacados (RIS/PACS, Dojirapp, Isshinryu, OIKKA, etc.), experiencia y contacto.
+Perfil profesional, proyectos destacados (Dojirapp, RIS/PACS, plataformas educativas y sitios institucionales), experiencia y contacto.
