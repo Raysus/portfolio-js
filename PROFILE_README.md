@@ -12,7 +12,7 @@ Desarrollo aplicaciones web y APIs desde 2019. Mi experiencia incluye plataforma
 
 - Consultor freelance Full Stack en **salud digital (RIS/PACS)**: multi-sede, Orthanc/DICOM, OHIF, Keycloak/SSO y Docker
 - Fundador de Dojirapp, SaaS para escuelas de artes marciales con versión web y Android. [Dojirapp](https://dojirapp.cl/)
-- Sitios en producción: **[Isshinryu Temuco](https://isshinryutemuco.cl/)** y **[OIKKA Chile](https://oikka.cl/)**
+- Sitios en producción: **[Isshinryu Temuco](https://isshinryutemuco.cl/)** y **[OIKKA Chile](https://oikkaisshinryuchile.com/)**
 
 ## Proyectos destacados
 
@@ -22,7 +22,7 @@ Desarrollo aplicaciones web y APIs desde 2019. Mi experiencia incluye plataforma
 | **Dojirapp** | Gestión de alumnos, asistencia sin conexión, contenidos y mensualidades | NestJS, Prisma, React, Capacitor, Docker | [dojirapp.cl](https://dojirapp.cl/) |
 | **ENDFID, ECEP y ENDDEIE** | Plataformas nacionales del Ministerio de Educación de Chile. Trabajo con Python y FastAPI en ENDFID | Python, FastAPI, Laravel, React | — |
 | **Isshin Akira Temuco** | Sitio del dojo y panel autenticado para publicar noticias | React, TypeScript, Express, Vite | [isshinryutemuco.cl](https://isshinryutemuco.cl/) |
-| **OIKKA Chile** | Sitio oficial de OIKKA Isshin Ryu Karate Chile | React, TypeScript, Vite | [oikka.cl](https://oikka.cl/) |
+| **OIKKA Chile** | Sitio oficial de OIKKA Isshin Ryu Karate Chile | React, TypeScript, Vite | [oikkaisshinryuchile.com](https://oikkaisshinryuchile.com/) |
 | **Marcadores de Kata y Kumite** | Herramientas locales para registrar puntajes de jueces y operar el marcador y cronómetro de combates | HTML, CSS, JavaScript | — |
 | **Facturas Tech** | Facturas, pagos, notas de crédito, reportes y JWT | ASP.NET Core, EF Core, React, TypeScript | [facturas-tech](https://github.com/Raysus/facturas-tech) |
 | **Realtime Collab Board** | Sticky notes colaborativas en tiempo real | Vue 3, Pinia, Socket.IO, Node.js | [realtime-collab-board](https://github.com/Raysus/realtime-collab-board) |
